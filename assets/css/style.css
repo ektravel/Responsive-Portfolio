@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+} 
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    line-height: 2;
+}
+#innerParentHeader {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc; 
+}
+#heading {
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: left;
+    background:#4aaaa5;
+    top: 0px;
+    padding: 23px 10px; 
+    text-align: center;
+    color: #ffffff;
+    float: left;
+}
+body {
+    padding: 0;
+}
+#container {
+    background-image: url('../images/concrete_seamless.png');
+    width: 100%;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+#innerSection {    
+    width: 960px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 20px;
+    border: solid 1px #dddddd;
+}
+h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 32px;
+    font-weight: bold;
+}
+#aboutMeTitle {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
+}
+#myPhoto {
+    width: 200px;
+    height: 200px;
+    float: left; 
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0px 15px 0px;
+    overflow: hidden; 
+}
+li+li {
+    border-right: 1px solid #777777;
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 16px;
+}
+footer {
+    position: sticky;
+    text-align: center;
+    padding: 15px;
+    background: #666666;
+    color: #ffffff;
+    border-top-style: solid;
+    border-top-width:7px;
+    border-top-color: #4aaaa5; 
+}
+.formContact {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.formContact > button[type="submit"]
+{
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #4aaaa5;
+    padding: 10px 20px;
+    margin-top: 10px; 
+}
+.formContact > input[type="text"]
+{
+    width: 100%;
+}
+.formContact > textarea
+{
+    width: 100%;
+}
+.portfolioImage {
+    width: 300px;
+    height: auto;
+}
+.portfolioImageContainer {
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.portfolioImageText {
+    position: absolute;
+    bottom: 15px;
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #4aaaa5;
+    width: 100%;
+    text-align: center;    
+}
