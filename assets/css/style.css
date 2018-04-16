@@ -146,6 +146,15 @@ footer {
     width: 100%;
     text-align: center;    
 }
+
+.leftRow {
+    padding-right:  10px;
+}
+.rightRow {
+    padding-left: 10px;
+}
+
+
 @media screen and (max-width:980px){   
     #innerParentHeader {
         margin-left: 5%;
@@ -173,7 +182,7 @@ footer {
 @media screen and (max-width:768px){
     #innerParentHeader {
         margin-left: 3%;
-        margin-right: 3%;
+        margin-right: 1%;
     }
     #navigation {
         list-style-type: none;
@@ -203,10 +212,56 @@ footer {
         margin-right: 0;
         margin-bottom: 20px;
     }
+    #myPhoto {
+        width: 300px;
+        height: 300px;
+    }
 }
-
 @media screen and (max-width:640px){
-    body{
-        
+    #innerParentHeader {
+        margin-left: 3%;
+        margin-right: 1%;
+    }
+    #navigation {
+        list-style-type: none;
+        margin: 0;
+        padding: 15px 0px 15px 0px;
+        overflow: hidden;
+        font-size: smaller;
+    }
+    #innerSection {    
+        background-color: #ffffff;
+        margin-left: 3%;
+        margin-right: 3%; 
+        padding: 20px;
+        border: solid 1px #dddddd;
+    
+    }
+    .portfolioImage {
+        width: 100%;
+        height: auto;
+        margin-right:0;
+    }
+    table {
+        width:100%;
+    }
+    .portfolioImageContainer {
+        position: relative;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    #myPhoto {
+        width: 300px;
+        height: 300px;
+    }
+    .leftRow {
+        padding-right: 0px;
+        width:100%;
+        float: left;
+    }
+    .rightRow {
+        padding-left: 0px;
+        width:100%;
+        float: left;
     }
 }
